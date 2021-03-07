@@ -26,3 +26,13 @@ Counter >> count [
 Counter >> count: value [
 	count := value
 ]
+
+{ #category : #operation }
+Counter >> decrement [
+	count := count - 1
+]
+
+{ #category : #operation }
+Counter >> increment [
+	count := count + 1
+]
